@@ -1,0 +1,29 @@
+{
+  "name": "number_guessing_game",
+  "version": "1.0.0",
+  "description": "",
+  
+  "main": "Number_Guessing_Game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Number_Guessing_Game",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/gradient-string": "^1.1.2",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18",
+    "i": "^0.3.7",
+    "pm": "^2.2.6"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0"
+  }
+}

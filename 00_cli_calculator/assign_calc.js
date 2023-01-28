@@ -1,3 +1,4 @@
+// #!/usr/bin/env node
 import inquirer from 'inquirer';
 import chalkAnimation from 'chalk-animation';
 const sleep = (ms = 1000) => new Promise((r) => setTimeout(r, ms));
@@ -5,7 +6,7 @@ async function welcome(l_heading) {
     const rainbowTitle = chalkAnimation.rainbow(l_heading + '\n');
     await sleep();
     rainbowTitle.stop();
-} 
+}
 await welcome("Calculator");
 await welcome("Lets Start calculation....");
 inquirer.prompt([{
