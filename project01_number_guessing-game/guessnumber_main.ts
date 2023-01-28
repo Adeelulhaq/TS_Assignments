@@ -1,6 +1,6 @@
 // #!/usr/bin/env node
 
-import * as example from  './guess_number.js'
+import * as example from  './guess_number_module.js'
 import inquirer from 'inquirer';
 
 await example.welcome("Number Guessing Game");
