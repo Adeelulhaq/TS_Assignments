@@ -2,7 +2,7 @@
   "name": "ts_assignments",
   "version": "1.0.0",
   "description": "",
-  "main": "ATM_MODULE.js",
+  "main": "assign_calc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
