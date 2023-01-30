@@ -14,7 +14,7 @@ let l_to_do_list : to_do[] = [  { task_id: 1, Task: "create Presentation on DAO"
                                 { task_id: 3, Task: "Complete Assignments",Task_Status : 'Pending'}
                              ];
 
-//console.log(l_to_do_list[0])
+
 let sleep = () => new Promise((r) => setTimeout(r, 1000)) ;
 
 async function F_spinner(p_msg_1 : string , p_msg_2 : string ) 
